@@ -198,7 +198,7 @@ GameObject:
   - component: {fileID: 787171807}
   - component: {fileID: 787171806}
   m_Layer: 5
-  m_Name: Start Text
+  m_Name: Play Again Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -221,7 +221,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0.000041962, y: 14.4}
-  m_SizeDelta: {x: 402, y: 168.5}
+  m_SizeDelta: {x: 702, y: 168.5}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &787171806
 MonoBehaviour:
@@ -241,7 +241,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Start
+  m_text: Play Again?
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: b640032dc54916d4faa2a37626fe042a, type: 2}
   m_sharedMaterial: {fileID: -1503333266499516687, guid: b640032dc54916d4faa2a37626fe042a,
@@ -311,10 +311,10 @@ MonoBehaviour:
   m_margin: {x: 0, y: 14.33882, z: 0, w: 0}
   m_textInfo:
     textComponent: {fileID: 787171806}
-    characterCount: 5
+    characterCount: 11
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -322,7 +322,7 @@ MonoBehaviour:
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_spriteAnimator: {fileID: 0}
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_subTextObjects:
   - {fileID: 0}
   - {fileID: 0}
@@ -355,7 +355,7 @@ GameObject:
   - component: {fileID: 1001571863}
   - component: {fileID: 1001571862}
   m_Layer: 5
-  m_Name: Start Button
+  m_Name: Play Again Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -379,7 +379,7 @@ RectTransform:
   m_AnchorMin: {x: 1, y: 0.5}
   m_AnchorMax: {x: 1, y: 0.5}
   m_AnchoredPosition: {x: -481.8, y: -313.9}
-  m_SizeDelta: {x: 402, y: 139.8}
+  m_SizeDelta: {x: 700, y: 139.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1001571862
 MonoBehaviour:
@@ -472,7 +472,7 @@ GameObject:
   - component: {fileID: 1354118513}
   - component: {fileID: 1354118512}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Lady2 Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -487,7 +487,7 @@ RectTransform:
   m_GameObject: {fileID: 1354118510}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: -1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1677627578}
   m_RootOrder: 0
@@ -515,7 +515,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 852abaae89473fb49a4cfeded19f7db7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: af29f6d762ecf1c4699d295722460d59, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
